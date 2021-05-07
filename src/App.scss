@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+html {
+  --light-grey-color: #F2F2F2;
+  --white-color: #F2F2F2;
+  --font-family-lexend-deca: Lexend Deca, sans-serif;
+  --font-family-big-shoulders-display: Big Shoulders Display, sans-serif;
+}
+
+body {
+  background: var(--light-grey-color);
+
+  .attribution {
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+  }
+}
